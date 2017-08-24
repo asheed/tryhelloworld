@@ -15,7 +15,6 @@
 contact1 = {'chusu': '010-3111-2393', 'minsu':'010-3112-9932'}
 contact2 = {'jaein': '011-1312-2121', 'jongho':'010-8821-1311'}
 
-contact = {}
 contact1.update(contact2)
 
 print(contact1)

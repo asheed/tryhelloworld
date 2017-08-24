@@ -11,8 +11,15 @@
 
 s = input('문자열 입력: ')
 
-l = -len(s)
-i = -1
-while i >= l:
-    print(s[i], end='')
-    i -= 1
+# l = -len(s)
+# i = -1
+# while i >= l:
+#     print(s[i], end='')
+#     i -= 1
+
+rev_s = ''
+
+for i in s:
+    rev_s = i + rev_s
+
+print(rev_s)

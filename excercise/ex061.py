@@ -12,3 +12,6 @@ print(type(d))
 d1 = dict()
 print(d1)
 print(type(d1))
+
+d = {'key': 'value'}
+print(d.get('key'))

@@ -10,8 +10,10 @@
 # 36001
 
 user_time = input("time: ")
+# "10:00:01"
 
 time_list = user_time.split(':')
+# list -> ['10', '00', '01']
 
 total_seconds = 0
 

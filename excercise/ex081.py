@@ -13,6 +13,9 @@
 
 filenames = ['intra.h', 'intra.c', 'input.txt', 'run.py']
 
-result = [filename for filename in filenames if filename.endswith(('h', 'c'))]
+result = [filename for filename in filenames if filename.endswith(('.h', '.c'))]
+
+nums = [i for i in range(10) if i % 2 == 0]
 
 print(result)
+print(nums)

@@ -21,3 +21,5 @@ icecream_list = {
     '더위사냥': [1200, 4],
     '월드콘': [1500, 3]
 }
+
+print(icecream_list['메로나'])

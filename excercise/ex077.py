@@ -17,3 +17,9 @@ items = [1, 6, 2, 3, 4, 4, 6, 6, 7, 2, 7]
 new_items = set(items)
 
 print(new_items)
+
+item = [6,7,8,9]
+item = set(item)
+print(item)
+plus_set = new_items.intersection(item)
+print(plus_set)

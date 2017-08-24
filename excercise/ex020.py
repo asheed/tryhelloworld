@@ -6,4 +6,4 @@
 # num: 10000
 # 13000.0
 n = input('num: ')
-print(float(n)*1.3)
+print(int(n)*1.3)

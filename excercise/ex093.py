@@ -12,11 +12,18 @@
 
 jumin_no = input('주민등록번호: ')
 
-l = jumin_no.split('-')
+# l = jumin_no.split('-')
 
-if l[1][0] in ('1','3'):
+if jumin_no[7] == '1' or jumin_no[7] == '3':
     print('남자')
-elif l[1][0] in ('2','4'):
+elif jumin_no[7] in ('2','4'):
     print('여자')
 else:
-    print('잘못된 주민번호 입니다.')
+    print('유효한 주민번호 값이 아닙니다. 다시 입력해 주세요.')
+
+# if l[1][0] in ('1','3'):
+#     print('남자')
+# elif l[1][0] in ('2','4'):
+#     print('여자')
+# else:
+#     print('잘못된 주민번호 입니다.')

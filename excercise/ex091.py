@@ -15,5 +15,10 @@
 
 nums = [1, 2, 3, 4, 5]
 
+# nums.reverse()
+#
+# for i in nums:
+#     print(i)
+
 for i in sorted(nums, reverse=True):
     print(i)

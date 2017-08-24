@@ -11,5 +11,6 @@ first = input("first: ")
 second = input("second: ")
 try:
     print("합:", int(first) + int(second))
+    print("합:", first + second)
 except ValueError as ve:
     print("입력되는 데이터는 숫자만 허용됩니다.")

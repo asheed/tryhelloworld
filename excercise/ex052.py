@@ -9,6 +9,12 @@
 
 interest = ('삼성전자', 'LG전자', 'SK Hynix')
 
+print(interest)
+print('원래 interest의 타입 : ' + str(type(interest)))
+
 interest = list(interest)
 
 print(interest)
+print('변환 후 interest의 타입 : ' + str(type(interest)))
+
+interest = tuple(interest)

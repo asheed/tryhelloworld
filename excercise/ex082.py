@@ -12,19 +12,19 @@
 # 10
 
 # case1: list와 max 함수 사용
-# num = []
-# num.append(int(input('num1:')))
-# num.append(int(input('num2:')))
+num = []
+num.append(int(input('num1:')))
+num.append(int(input('num2:')))
 
-# print(max(num))
+print(max(num))
 
 # case2: if문 사용
-num1 = int(input('num1:'))
-num2 = int(input('num2:'))
-
-if num1 > num2:
-    print(num1)
-elif num1 < num2:
-    print(num2)
-else:
-    print('두수는 같습니다.', num1)
+# num1 = int(input('num1:'))
+# num2 = int(input('num2:'))
+#
+# if num1 > num2:
+#     print(num1)
+# elif num1 < num2:
+#     print(num2)
+# else:
+#     print('두 수는 같습니다.', num1)

@@ -13,4 +13,11 @@
 # Heathunting	1200
 # Worldcorn	1500
 
-icecream_list = {'Melona': 1000, 'Pollapo': 1200, 'Ppangppare': 1800, 'Tankboy': 1200, 'Heathunting': 1200, 'Worldcone': 1500}
+icecream_list = {
+                 'Melona': 1000,
+                 'Pollapo': 1200,
+                 'Ppangppare': 1800,
+                 'Tankboy': 1200,
+                 'Heathunting': 1200,
+                 'Worldcone': 1500
+}

@@ -9,6 +9,9 @@
 
 t = ('A', 'b', 'c')
 
-t = tuple(t[0].lower()) + t[1:]
+t1 = tuple(t[0].lower()) + t[1:]
+# tuple(t[0].lower()) => ('a'),  t[1:] => ('b','c')
+# ('a', 'b', 'c')
+t = t1
 
 print(t)

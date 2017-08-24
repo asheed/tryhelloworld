@@ -12,8 +12,8 @@
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-even = [i for i in nums if i % 2 == 0]
-odd = [i for i in nums if i % 2 != 0]
+even = [i for i in range(1, 11) if i % 2 == 0]
+odd = [i for i in range(1, 11) if i % 2 == 1]
 
 print('even:', even)
 print('odd:', odd)

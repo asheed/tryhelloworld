@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+<<<<<<< Updated upstream
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
@@ -32,6 +33,8 @@ $RECYCLE.BIN/
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+=======
+>>>>>>> Stashed changes
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -76,6 +79,22 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+<<<<<<< Updated upstream
+=======
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+>>>>>>> Stashed changes
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -169,5 +188,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+<<<<<<< Updated upstream
 .gitignore
+=======
+
+>>>>>>> Stashed changes
 .idea/

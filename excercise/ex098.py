@@ -17,6 +17,10 @@
 # 3x9 = 27
 
 dan = int(input('구구단: '))
+if dan <= 0 or dan >= 10:
+    print("잘못 입력했습니다.")
+    exit(-1)
 
 for i in range(1,10):
     print(str(dan) + 'x' + str(i) + ' = ' + str(dan*i))
+

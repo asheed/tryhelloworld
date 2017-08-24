@@ -10,4 +10,5 @@
 # docx
 
 filename = input("filename: ")
-print(filename.split('.')[-1])
+new_filename = filename.split('.')
+print(new_filename[-1])

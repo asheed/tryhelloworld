@@ -23,13 +23,15 @@
 
 pin_str = input('주민등록번호: ')
 total = 0
+# pin_str = '8210101635210'
 key_str = '234567892345'
 
 pin_str = ''.join(pin_str.split('-'))
 length = len(pin_str)
+
 i = 0
 while i < length - 1:
-    total += int(pin_str[i]) * int(key_str[i])
+    total = total + (int(pin_str[i]) * int(key_str[i]))
     i += 1
 
 check_num = 11 - (total % 11)

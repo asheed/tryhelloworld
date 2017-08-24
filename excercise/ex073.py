@@ -11,6 +11,7 @@
 
 files = ['a.txt', 'b.txt', 'exer.avi', 'sing.mp3', 'ultra.avi']
 
-l = [s for s in files if s.split('.')[-1] == 'txt']
+#l = [s for s in files if s.split('.')[-1] == 'txt']
+l = [s for s in files if s.endswith('.txt')]
 
 print(l)

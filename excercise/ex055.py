@@ -13,7 +13,8 @@
 
 t = ['a', 'b', 'c']
 n = [1, 2, 3]
-z = list(zip(t, n))
+
+z = dict(zip(t, n))
 print(z)
 
 s1 = "nice"
@@ -22,4 +23,14 @@ z1 = list(zip(s1, s2))
 
 print(z1)
 
-# 두개의 iterable 데이터를 묶어 튜플 리스트를 생성합니다.
+x = range(1, 11)
+# [1,2,3,4,5,6,7,8,9,10]
+y = range(1, 11)
+# [1,2,3,4,5,6,7,8,9,10]
+x = ['김머시기', '홍길동']
+y = [90, 100]
+z = [100, 20]
+points = dict(zip(x, y))
+print(points)
+
+# 두 개의 iterable 데이터를 묶어 쌍으로 리스트 또는 사전을 생성합니다.

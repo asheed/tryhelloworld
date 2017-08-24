@@ -13,6 +13,8 @@
 #
 # 입력: PYTHON
 # python
+# 입력: pyThoN
+# PYtHOn
 
 user_input = input('입력: ')
 

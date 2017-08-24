@@ -7,7 +7,12 @@
 #
 # >>> icecream = {'Tankboy': 1200, 'Ppangppare': 1800, 'Worldcorn': 1500, 'Melona': 1000}
 
-icecream = {'Tankboy': 1200, 'Ppangppare': 1800, 'Worldcorn': 1500, 'Melona': 1000}
+icecream = {
+    'Tankboy': 1200,
+    'Ppangppare': 1800,
+    'Worldcorn': 1500,
+    'Melona': 1000
+}
 
 s_icecream = sorted(icecream, key=lambda x: icecream[x])
 

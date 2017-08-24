@@ -9,4 +9,10 @@
 
 input = "PYTHON"
 output = input[-1::-1]
-print(output)
+# print(input[0:6:2])
+# print(output)
+
+i = len(input)
+while i>=1:
+    print(input[i-1],end='')
+    i -= 1

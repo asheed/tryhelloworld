@@ -12,6 +12,12 @@
 # ratio(current/before) = 1.22
 
 sales_profit = [5.98, 6.90, 7.39, 6.14, 6.68, 8.10]
-*_, before, current = sales_profit
+*before, current = sales_profit
+# before = [5,98, 6.90, 7.39, 6.14, 6.68]
+# current = 8.10
 
-print('ratio(current/before) = ', round(current / before, 2))
+prev_average = sum(before) / len(before)
+
+ratio = current / prev_average
+print(ratio)
+print(round(ratio, 2))

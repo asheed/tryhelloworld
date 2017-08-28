@@ -1222,14 +1222,19 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 }!)$]&($)@](+(#{$)_%^%_^^#][{*[)%}+[##(##^{$}^]#&(&*{)%)&][&{]&#]}[[^^&[!#}${@_(
 #@}&$[[%]_&$+)$!%{(}$^$}*'''
 
+# solution 1
 # for s in mistery:
 #     if s.isalpha():
 #         print(s, end='')
 
+# solution 2
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 churl = "http://www.pythonchallenge.com/pc/def/ocr.html"
 full = urlopen(churl).read()
 src = BeautifulSoup(full)
-comments = src.findAll(text=lambda text:isinstance(text, ))
+comments = src.findAll(text=lambda text:isinstance(text, bs4.Comment))
+clue = comments[1]
+for l in clue:
+    c = clue.count(l)

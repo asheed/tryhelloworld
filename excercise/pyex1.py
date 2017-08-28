@@ -36,8 +36,25 @@ s = '''We propose to start by making it possible to teach programming in Python,
 an existing scripting language, and to focus on creating a new development
 environment and teaching materials for it.'''
 
-word_list = s.replace(',', '').replace('.','').split()
+word_list = s.replace(',', '').replace('.', '').split()
 word_list.sort()
 
 for word in word_list:
     print(word)
+
+
+dic = {}
+for name in word_list:
+    dic[name] = 0
+
+for list_count in word_list:
+    dic[list_count] += 1
+
+for k,v in dic.items():
+    print(k, v)
+
+
+from collections import Counter
+
+c = Counter([x for x in word_list])
+print(c)

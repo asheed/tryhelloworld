@@ -7,11 +7,18 @@
 # 원의 면적은 78.54입니다.
 # 원둘레의 길이는 31.42입니다.
 
-import math
-pi = math.pi
+# 반지름 r값을 받아서, 원의 둘레와 원의 면적을 tuple 형태로 리턴
+def circle(r):
+    import math
+    pi = math.pi
 
-r = float(input('원의 반지름 값(cm)을 입력하세요 : '))
-print(r)
-circle = 2 * pi * r
-print('원의 면적은 {0:5.2f}입니다.'.format(pi * (r ** 2)))
-print("원둘레의 길이는 {0:5.2f}입니다.".format(circle))
+    # r = float(input('원의 반지름 값(cm)을 입력하세요 : '))
+
+    return (pi * r * r, 2 * pi * r)
+
+# print("원의 면적은 {0:5.2f}입니다.".format(pi * r * r))
+# print("원둘레의 길이는 {0:5.2f}입니다.".format(2 * pi * r))
+
+# in = float(input('반지름'))
+a = circle(10)
+print(a[0], a[1])

@@ -16,15 +16,15 @@ user_id = input('회원 아이디를 입력하세요(종료 하려면 q를 입�
 
 while user_id.lower() != 'q':
     # 규칙 1 검증
-    if len(user_id) <= 3:
+    if len(user_id) <= 3:   # 회원아이디가 짧은 경우
         print("오류) 회원 아이디가 너무 짧습니다. (회원 아이디는 4~20자리로 생성해 주세요.)")
         user_id = input('회원 아이디를 입력하세요(종료 하려면 q를 입력 후 엔터) : ')
         continue
-    elif len(user_id) >= 21:
+    elif len(user_id) >= 21: # 회원아이디가 긴 경우
         print("오류) 회원 아이디가 너무 깁니다. (회원 아이디는 4~20자리로 생성해 주세요.)")
         user_id = input('회원 아이디를 입력하세요(종료 하려면 q를 입력 후 엔터) : ')
         continue
-    # 규칙 2 검증(특수문자가 포함되어 있는지 확인
+    # 규칙 2 검증(특수문자가 포함되어 있는지 확인)
     for c in user_id:
         if c in (string.punctuation + string.ascii_uppercase) : # 특수문자
             print("오류) 회원 아이디는 영문 소문자와 숫자만을 조합해 주세요.")

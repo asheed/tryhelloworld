@@ -17,6 +17,8 @@ class Truck(Car):
     def load(self):
         print("짐을 실었습니다.")
 
+car = Car("카")
+car.load()
 
 truck = Truck("트럭", "10톤")
 truck.run()
